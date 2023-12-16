@@ -100,11 +100,11 @@ def sckt_client(incoming_data):
 
 
 def run():
-    if not path.isdir('storage2/storage'):
-        os.mkdir('storage2/storage')
-        new_dir = 'storage2/storage'
-        new_file = 'data.json'
-        with open(os.path.join(new_dir, new_file), 'w') as fp:
+    if not path.isdir("storage2/storage"):
+        os.mkdir("storage2/storage")
+        new_dir = "storage2/storage"
+        new_file = "data.json"
+        with open(os.path.join(new_dir, new_file), "w") as fp:
             ...
 
     server_address = (IP_HTTP, HTTP_PORT)
